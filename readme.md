@@ -1,3 +1,11 @@
+1: Instalar dependecias usando Composer composer install con este comando se instalan las dependencias del proyecto definidas en el archivo coomposer.json dentro del proyecto
+
+2:Crear archivo .env Para hacer esto siempre estando con la consola abierta en la carpeta del proyecto usamos el comando copy NUL .env esto se hace porque cada desarrollador usara algun gestor de base de datos diferente con sus respectivas credenciales y para ahorranos tiempo solo copiamos y pegamos el contenido de .env.example en .env que creamos anteriormente
+
+3:Generar una clave Laravel necesita una clave unica para nuestros proyectos la cual se genera usando el siguiente comando php artisan key:generate
+
+Con estos 3 pasos ya tendremos nuestro proyecto de Laravel funcionando en un entorno de desarrollo
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
